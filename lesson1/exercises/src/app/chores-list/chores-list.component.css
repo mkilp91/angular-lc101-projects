@@ -1,11 +1,13 @@
 .chores {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5vw;
-    color:midnightblue
+    color:midnightblue;
+    text-align: center;
 }
 
 h3 {
     text-decoration: underline;
+    text-align: center;
 }
 
 ul {
