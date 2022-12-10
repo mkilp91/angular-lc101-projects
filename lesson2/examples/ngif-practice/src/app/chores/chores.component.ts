@@ -6,11 +6,10 @@ import { Component, OnInit } from '@angular/core';
    styleUrls: ['./chores.component.css']
 })
 export class ChoresComponent implements OnInit {
-   chores = ['Empty dishwasher', 'Complete LaunchCode prep work', 'Buy groceries'];
+   chores = ['Take out trash', 'Empty dishwasher', 'Complete LaunchCode prep work', 'Buy groceries', 'Dishes'];
    finishedChores = [];
 
-   targetImage = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-
+   targetImage = 'https://img.freepik.com/free-vector/red-dart-arrow-hitting-target-center-dartboard_91128-1576.jpg?w=2000'
    constructor() { }
 
    ngOnInit() {
