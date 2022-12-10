@@ -26,7 +26,6 @@ export class CandidatesComponent implements OnInit {
   addToCrew(candidate: object){
     if (!this.crew.includes(candidate)){
       this.crew.push(candidate);
-      // console.log(this.crew);
     }
   }
 
